@@ -1,0 +1,22 @@
+#Random password generator 
+
+
+import string
+import random 
+
+if_name_=="_main_":
+s1= string.ascii_lowercase
+s2= string.ascii_uppercase
+S3= string.digits
+s4= string.punctuation 
+
+plen= int(input("Enter password length\n"))
+
+s=[]
+s.extend(list(s1))
+s.extend(list(s2))
+s.extend(list(s3))
+s.extend(list(s4))
+
+random.shuffle(s)
+print("".join(s[0:plen]))
