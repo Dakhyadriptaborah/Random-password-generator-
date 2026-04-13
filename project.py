@@ -7,7 +7,7 @@ import random
 if_name_=="_main_":
 s1= string.ascii_lowercase
 s2= string.ascii_uppercase
-S3= string.digits
+s3= string.digits
 s4= string.punctuation 
 
 plen= int(input("Enter password length\n"))
